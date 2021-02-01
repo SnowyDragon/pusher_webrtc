@@ -16,7 +16,8 @@ const pusher = new Pusher({
   key: "e086d815ef6475621fc3",
   secret: "1b417fd9d5f92bfa6552",
   cluster: "ap2",
-  useTLS: true
+  useTLS: true,
+  encrypted: true
 });
 
 
